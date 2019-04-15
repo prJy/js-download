@@ -43,7 +43,7 @@
             $.ajax({
                 url: $("#uploadForm").attr("action"),
                 type: 'POST',
-                data: formData,
+                data: formdata,
                 success: function(data) {
                     alert(data.msg)
                 },
